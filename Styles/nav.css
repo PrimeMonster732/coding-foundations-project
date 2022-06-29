@@ -1,0 +1,99 @@
+/* header styles */
+.header-wrapper {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* logo styles */
+.Logo {
+    align-items: center;
+}
+
+.Logo img {
+    height: 50%;
+    width: 100%;
+    margin: 20px 0px 0px 10px;
+}
+
+/* explore links styles */
+.header-wrapper > .explore-wrapper {
+    padding: 10px 100px 10px 50px;
+    align-items: center;
+}
+
+.header-wrapper > .explore-wrapper h4 {
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    margin: 10px 0px 0px 0px;
+}
+
+.header-wrapper > .explore-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+}
+
+.header-wrapper > .explore-wrapper > .links-wrapper > .link {
+    padding: 0px 5px;
+}
+
+.header-wrapper > .explore-wrapper > .links-wrapper > .link a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-wrapper > .explore-wrapper > .links-wrapper > .dropdown-list {
+    display: flex;
+}
+
+.header-wrapper > .explore-wrapper > .links-wrapper > .dropdown-list h4 {
+    color: lightgray;
+    margin-top: 0px;
+    padding: 0px 5px;
+    padding-left: 50px;
+    text-decoration: underline solid black;
+}
+
+.header-wrapper > .explore-wrapper > .links-wrapper > .dropdown-list > .icon {
+    padding-top: 2.5px;
+    padding-left: 10px;
+    color: lightgray;
+    font-size: 0.8em;
+}
+
+/* styles for other nav links */
+.header-wrapper > .rectangle-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-wrapper > .rectangle-links > .icon i {
+    color: gray;
+    margin: 20px 10px;
+    font-size: 3em;
+}
+
+.header-wrapper > .rectangle-links > .link h3 {
+    align-items: center;
+    padding: 20px 30px;
+    margin: 20px;
+    background-color: rgb(48, 47, 47);
+    border: 1px rgb(48, 47, 47);
+    border-radius: 4px;
+    color: white;
+}
+.header-wrapper > .rectangle-links > .link a {
+    text-decoration: none;
+}
+
+.header-wrapper > .rectangle-links > .link h3 i {
+    color: green;
+    margin-left: 3px;
+    font-size: 1.3em;
+}

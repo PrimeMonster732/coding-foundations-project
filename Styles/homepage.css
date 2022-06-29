@@ -1,0 +1,92 @@
+.page-container > .main-content {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(58, 58, 61);
+    color: white;
+    box-shadow: inset -26px -10px 76px 17px rgba(0,0,0,0.75);
+
+}
+
+/* left column styles */
+.page-container > .main-content > .left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-container > .main-content > .left-column > .message {
+    font-weight: 100;
+    font-size: 4rem;
+    margin: 20px;
+}
+
+.page-container > .main-content > .left-column > .message :nth-child(2) {
+    font-size: 3.2rem;
+}
+.page-container > .main-content > .left-column > .more-links {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page-container > .main-content > .left-column > .more-links a {
+    text-decoration: none;
+}
+
+.page-container > .main-content > .left-column > .more-links :nth-child(1) p {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(102, 201, 102);
+    color: black;
+    font-size: 2em;
+    font-weight: 200;
+    border-radius: 3px;
+}
+
+.page-container > .main-content > .left-column > .more-links :nth-child(2) p {
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+    border-radius: 3px;
+}
+
+/* right column styles */
+.page-container > .main-content > .right-column > .message {
+    font-size: 2em;
+    margin: 100px 0px 0px 40px;
+}
+
+.page-container > .main-content > .right-column > .message a {
+    text-decoration: none;
+    color: rgb(38, 179, 235);
+}
+
+.page-container > .main-content > .right-column > .image img {
+    height: 900px;
+}
+
+/* CodePen for ___ styles */
+.page-container > .CodePen-for_ {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(58, 58, 61);
+    border-top: 3px solid rgb(94, 92, 92);
+}
+
+.page-container > .CodePen-for_ > .box {
+    padding: 2.5px;
+    margin: 0px;
+    width: 100%;
+    border-right: 3px solid rgb(94, 92, 92);
+    border-bottom: 3px solid rgb(94, 92, 92);
+    font-size: 2rem
+}
+
+.page-container > .CodePen-for_> .box a {
+    color: white;
+    text-decoration: none;
+}
